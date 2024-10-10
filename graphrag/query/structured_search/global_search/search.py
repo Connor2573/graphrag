@@ -12,6 +12,7 @@ from dataclasses import dataclass
 from typing import Any
 
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.llm.openai.utils import try_parse_json_object

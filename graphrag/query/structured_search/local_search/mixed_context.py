@@ -7,6 +7,7 @@ from copy import deepcopy
 from typing import Any
 
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.model import (

@@ -7,6 +7,8 @@ import logging
 import time
 from typing import Any
 
+import graphrag.init_tiktoken
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.query.context_builder.builders import LocalContextBuilder

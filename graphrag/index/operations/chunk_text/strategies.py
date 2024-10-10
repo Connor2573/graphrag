@@ -7,6 +7,7 @@ from collections.abc import Iterable
 from typing import Any
 
 import nltk
+import graphrag.init_tiktoken
 import tiktoken
 from datashaper import ProgressTicker
 

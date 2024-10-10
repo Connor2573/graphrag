@@ -8,6 +8,7 @@ import time
 from collections.abc import AsyncGenerator
 from typing import Any
 
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.query.context_builder.builders import LocalContextBuilder

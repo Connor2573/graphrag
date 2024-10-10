@@ -11,6 +11,7 @@ from dataclasses import dataclass
 from typing import Any
 
 import networkx as nx
+import graphrag.init_tiktoken
 import tiktoken
 
 import graphrag.config.defaults as defs

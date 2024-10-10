@@ -7,6 +7,8 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from typing import Any
 
+import graphrag.init_tiktoken
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.query.context_builder.builders import (

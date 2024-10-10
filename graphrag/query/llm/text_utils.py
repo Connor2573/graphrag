@@ -6,6 +6,7 @@
 from collections.abc import Iterator
 from itertools import islice
 
+import graphrag.init_tiktoken
 import tiktoken
 
 

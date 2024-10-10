@@ -9,6 +9,7 @@ from dataclasses import dataclass
 from typing import Any
 
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.query.context_builder.builders import (

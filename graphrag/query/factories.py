@@ -3,6 +3,7 @@
 
 """Query Factory methods to support CLI."""
 
+import graphrag.init_tiktoken
 import tiktoken
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 

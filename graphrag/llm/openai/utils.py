@@ -9,6 +9,7 @@ import re
 from collections.abc import Callable
 from typing import Any
 
+import graphrag.init_tiktoken
 import tiktoken
 from json_repair import repair_json
 from openai import (

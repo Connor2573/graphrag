@@ -8,6 +8,7 @@ import traceback
 from dataclasses import dataclass
 from typing import Any
 
+import graphrag.init_tiktoken
 import tiktoken
 
 import graphrag.config.defaults as defs

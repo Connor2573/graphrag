@@ -5,6 +5,7 @@
 
 import logging
 
+import graphrag.init_tiktoken
 import tiktoken
 
 DEFAULT_ENCODING_NAME = "cl100k_base"
