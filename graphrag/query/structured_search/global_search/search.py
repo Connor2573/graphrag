@@ -15,6 +15,7 @@ import pandas as pd
 import graphrag.init_tiktoken
 import tiktoken
 
+from graphrag.callbacks.global_search_callbacks import GlobalSearchLLMCallback
 from graphrag.llm.openai.utils import try_parse_json_object
 from graphrag.query.context_builder.builders import GlobalContextBuilder
 from graphrag.query.context_builder.conversation_history import (
@@ -23,9 +24,6 @@ from graphrag.query.context_builder.conversation_history import (
 from graphrag.query.llm.base import BaseLLM
 from graphrag.query.llm.text_utils import num_tokens
 from graphrag.query.structured_search.base import BaseSearch, SearchResult
-from graphrag.query.structured_search.global_search.callbacks import (
-    GlobalSearchLLMCallback,
-)
 from graphrag.query.structured_search.global_search.map_system_prompt import (
     MAP_SYSTEM_PROMPT,
 )
