@@ -19,7 +19,7 @@ try:
 except AssertionError as e:
     print(f"AssertionError: {e}")
     print("Current cache directory: ", tiktoken_cache_dir)
-    print("Error: Please follow these instructions for local-graphrag: https://github.com/battelle-software/graphrag-local")
+    # print("Error: Please follow these instructions for local-graphrag: https://github.com/battelle-software/graphrag-local")
     sys.exit(1)
 except PermissionError as e:
     print(f"PermissionError: {e}")
