@@ -4,6 +4,7 @@
 """Basic Context Builder implementation."""
 
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.model.text_unit import TextUnit

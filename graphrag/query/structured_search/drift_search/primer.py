@@ -10,6 +10,7 @@ import time
 
 import numpy as np
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 from tqdm.asyncio import tqdm_asyncio
 

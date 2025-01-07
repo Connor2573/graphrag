@@ -12,6 +12,7 @@ from enum import Enum
 from typing import Any, Literal, cast
 
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 
 import graphrag.config.defaults as defs

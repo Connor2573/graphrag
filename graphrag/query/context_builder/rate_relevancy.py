@@ -9,6 +9,7 @@ from contextlib import nullcontext
 from typing import Any
 
 import numpy as np
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.query.context_builder.rate_prompt import RATE_QUERY

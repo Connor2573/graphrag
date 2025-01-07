@@ -9,6 +9,7 @@ import re
 from collections.abc import Iterator
 from itertools import islice
 
+import graphrag.init_tiktoken
 import tiktoken
 from json_repair import repair_json
 

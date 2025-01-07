@@ -6,6 +6,7 @@
 from collections.abc import Iterable
 
 import nltk
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.config.models.chunking_config import ChunkingConfig

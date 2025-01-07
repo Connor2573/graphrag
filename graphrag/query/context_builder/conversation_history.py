@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from enum import Enum
 
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.query.llm.text_utils import num_tokens

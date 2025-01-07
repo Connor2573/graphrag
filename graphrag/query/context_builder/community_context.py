@@ -8,6 +8,7 @@ import random
 from typing import Any, cast
 
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.model.community_report import CommunityReport

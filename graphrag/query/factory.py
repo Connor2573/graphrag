@@ -3,6 +3,7 @@
 
 """Query Factory methods to support CLI."""
 
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.config.models.graph_rag_config import GraphRagConfig

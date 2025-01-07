@@ -7,6 +7,7 @@ import logging
 import time
 from typing import Any, cast
 
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.prompts.query.question_gen_system_prompt import QUESTION_SYSTEM_PROMPT

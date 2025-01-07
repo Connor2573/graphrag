@@ -5,6 +5,7 @@
 
 import logging
 
+import graphrag.init_tiktoken
 import tiktoken
 
 import graphrag.config.defaults as defs

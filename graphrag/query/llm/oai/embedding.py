@@ -8,6 +8,7 @@ from collections.abc import Callable
 from typing import Any
 
 import numpy as np
+import graphrag.init_tiktoken
 import tiktoken
 from tenacity import (
     AsyncRetrying,

@@ -10,6 +10,7 @@ from copy import deepcopy
 from time import time
 from typing import Any
 
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.model.community import Community

@@ -12,6 +12,7 @@ from dataclasses import dataclass
 from typing import Any
 
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.callbacks.global_search_callbacks import GlobalSearchLLMCallback

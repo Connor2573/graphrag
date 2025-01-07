@@ -9,6 +9,7 @@ from typing import Any
 
 import numpy as np
 import pandas as pd
+import graphrag.init_tiktoken
 import tiktoken
 
 from graphrag.config.models.drift_search_config import DRIFTSearchConfig
